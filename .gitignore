@@ -1,0 +1,31 @@
+# Ignore everything by default
+*
+
+# Allow only the necessary files
+!/.gitignore
+!/deep_learning_emg.py
+!/silent_speech_model.pth
+!/emg_data.csv
+!/README.md
+
+# Ignore all directories except the ones explicitly allowed
+!*/
+
+# Exclude specific unwanted files
+/deeplearningmodel_emgtotext.py
+/emg_text_conversion.py
+/process_emg_data.py
+/test_synthetic_data.py
+/SilentSpeech.code-workspace
+/workspace_files.txt
+
+# Ignore Python virtual environment
+/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore VSCode settings and Jupyter checkpoints
+/.vscode/
+/.ipynb_checkpoints/
