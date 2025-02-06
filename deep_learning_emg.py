@@ -5,7 +5,7 @@ from torch.optim.lr_scheduler import ReduceLROnPlateau
 from torch.utils.data import DataLoader, TensorDataset
 import numpy as np
 import pandas as pd
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler, LabelEncoder
 
 # -------------------------
 # Data Loading & Preprocessing
@@ -14,7 +14,11 @@ def load_data(file_path):
     df = pd.read_csv(file_path)
     X = df.iloc[:, :-1].values  # Features
     y = df.iloc[:, -1].values   # Labels
-    
+
+    # Encode labels to sequential indices
+    label_encoder = LabelEncoder()
+    y = label_encoder.fit_transform(y)
+
     scaler = StandardScaler()
     X = scaler.fit_transform(X)  # Normalize Data
     return torch.tensor(X, dtype=torch.float32), torch.tensor(y, dtype=torch.long)
@@ -71,7 +75,7 @@ def train_model(model, train_loader, criterion, optimizer, scheduler, device, ep
 # Main Execution
 # -------------------------
 if __name__ == "__main__":
-    file_path = input("Enter the absolute path to your EMG dataset CSV file: ")
+    file_path = 'emg_data.csv'
     X, y = load_data(file_path)
     dataset = TensorDataset(X, y)
     train_loader = DataLoader(dataset, batch_size=32, shuffle=True)
