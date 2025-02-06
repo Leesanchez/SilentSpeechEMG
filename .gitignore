@@ -29,3 +29,6 @@ __pycache__/
 # Ignore VSCode settings and Jupyter checkpoints
 /.vscode/
 /.ipynb_checkpoints/
+
+# Ignore segment-anything (cloned repository)
+/segment-anything/Updated .gitignore to exclude segment-anything
