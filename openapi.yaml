@@ -1,0 +1,156 @@
+openapi: 3.1.0
+info:
+  title: Research Assistant API
+  description: API for fetching research papers and datasets for a research assistant GPT.
+  version: 1.1.0
+servers:
+  - url: https://api.semanticscholar.org
+    description: Semantic Scholar API
+  - url: http://export.arxiv.org
+    description: ArXiv API
+  - url: https://zenodo.org
+    description: Zenodo API (for research datasets)
+paths:
+  /graph/v1/paper/search:
+    get:
+      operationId: searchSemanticScholar
+      summary: Search research papers on Semantic Scholar.
+      description: Fetches papers from Semantic Scholar based on a query.
+      parameters:
+        - name: query
+          in: query
+          required: true
+          description: Search term for research papers.
+          schema:
+            type: string
+        - name: fields
+          in: query
+          required: false
+          description: Comma-separated fields to return (e.g., title, authors, year).
+          schema:
+            type: string
+        - name: limit
+          in: query
+          required: false
+          description: Number of results to return (default 10).
+          schema:
+            type: integer
+            default: 10
+      responses:
+        "200":
+          description: A list of research papers.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        paperId:
+                          type: string
+                        title:
+                          type: string
+                        authors:
+                          type: array
+                          items:
+                            type: string
+                        year:
+                          type: integer
+                        abstract:
+                          type: string
+  /api/query:
+    get:
+      operationId: searchArxiv
+      summary: Search research papers on ArXiv.
+      description: Fetches research papers from ArXiv based on a query.
+      parameters:
+        - name: search_query
+          in: query
+          required: true
+          description: Query string for searching ArXiv (e.g., "machine learning").
+          schema:
+            type: string
+        - name: max_results
+          in: query
+          required: false
+          description: Number of results to return (default 10).
+          schema:
+            type: integer
+            default: 10
+      responses:
+        "200":
+          description: A list of ArXiv research papers.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  entries:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                        title:
+                          type: string
+                        authors:
+                          type: array
+                          items:
+                            type: string
+                        summary:
+                          type: string
+                        published:
+                          type: string
+                          format: date-time
+  /api/records:
+    get:
+      operationId: searchZenodo
+      summary: Search research datasets on Zenodo.
+      description: Fetches datasets from Zenodo based on a query.
+      parameters:
+        - name: q
+          in: query
+          required: true
+          description: Search term for datasets.
+          schema:
+            type: string
+        - name: size
+          in: query
+          required: false
+          description: Number of results to return (default 10).
+          schema:
+            type: integer
+            default: 10
+      responses:
+        "200":
+          description: A list of Zenodo datasets.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  hits:
+                    type: object
+                    properties:
+                      hits:
+                        type: array
+                        items:
+                          type: object
+                          properties:
+                            id:
+                              type: string
+                            title:
+                              type: string
+                            creators:
+                              type: array
+                              items:
+                                type: object
+                                properties:
+                                  name:
+                                    type: string
+                            description:
+                              type: string
