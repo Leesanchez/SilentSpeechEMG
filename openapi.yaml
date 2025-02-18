@@ -56,7 +56,10 @@ paths:
                         authors:
                           type: array
                           items:
-                            type: string
+                            type: object
+                            properties:
+                              name:
+                                type: string
                         year:
                           type: integer
                         abstract:
@@ -88,7 +91,7 @@ paths:
               schema:
                 type: object
                 properties:
-                  entries:
+                  results:
                     type: array
                     items:
                       type: object
@@ -106,6 +109,9 @@ paths:
                         published:
                           type: string
                           format: date-time
+      servers:
+        - url: http://export.arxiv.org/api/query?format=json
+          description: ArXiv API (now returning JSON instead of XML)
   /api/records:
     get:
       operationId: searchZenodo
@@ -154,3 +160,8 @@ paths:
                                     type: string
                             description:
                               type: string
+      headers:
+        Accept:
+          schema:
+            type: string
+          example: "application/json"
