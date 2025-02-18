@@ -2,12 +2,12 @@ openapi: 3.1.0
 info:
   title: Research Assistant API
   description: API for fetching research papers and datasets for a research assistant GPT.
-  version: 1.1.0
+  version: 1.2.0
 servers:
   - url: https://api.semanticscholar.org
     description: Semantic Scholar API
-  - url: http://export.arxiv.org
-    description: ArXiv API
+  - url: https://api.arxiv.org
+    description: ArXiv API (via XML-to-JSON conversion)
   - url: https://zenodo.org
     description: Zenodo API (for research datasets)
 paths:
@@ -64,13 +64,13 @@ paths:
                           type: integer
                         abstract:
                           type: string
-  /api/query:
+  /v1/arxiv/search:
     get:
       operationId: searchArxiv
       summary: Search research papers on ArXiv.
-      description: Fetches research papers from ArXiv based on a query.
+      description: Fetches research papers from ArXiv by converting XML to JSON.
       parameters:
-        - name: search_query
+        - name: query
           in: query
           required: true
           description: Query string for searching ArXiv (e.g., "machine learning").
@@ -110,8 +110,8 @@ paths:
                           type: string
                           format: date-time
       servers:
-        - url: http://export.arxiv.org/api/query?format=json
-          description: ArXiv API (now returning JSON instead of XML)
+        - url: https://api.arxiv.org/v1/arxiv-to-json
+          description: JSON proxy for ArXiv API
   /api/records:
     get:
       operationId: searchZenodo
@@ -124,6 +124,7 @@ paths:
           description: Search term for datasets.
           schema:
             type: string
+          example: "deep+learning"
         - name: size
           in: query
           required: false
