@@ -36,28 +36,41 @@ ENV/
 # Project specific
 wandb/
 *.pth
-*.png
-*.jpg
-*.jpeg
-*.log
-*.pkl
+*.ckpt
+*.pt
+*.h5
+*.hdf5
 *.npy
 *.npz
+*.pkl
+*.model
+*.bin
+*.onnx
+*.tflite
+*.pb
+*.savedmodel
+logs/
+checkpoints/
+*.log
 
 # Keep specific documentation images
 !docs/images/*.png
 !docs/images/*.jpg
+!docs/images/*.gif
 
-# Jupyter Notebook
-.ipynb_checkpoints
-*.ipynb
+# Large data files
+data/*.csv
+data/*.json
+data/*.txt
+collected_data/
+datasets/
+raw_data/
+processed_data/
 
-# Local development
+# Temporary files
+*.tmp
+*.temp
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
 
 emg_data/
 models/
