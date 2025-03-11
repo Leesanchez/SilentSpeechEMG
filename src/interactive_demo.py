@@ -1,12 +1,12 @@
 import gradio as gr
 import torch
 import numpy as np
-from spatiotemporal_model import SilentSpeechTransformer
-from data_utils import TextTransform, preprocess_openbci_emg, extract_emg_features
-from visualization_utils import plot_emg_channels, plot_spectrogram
+from src.models.spatiotemporal_model import SilentSpeechTransformer
+from src.data.data_utils import TextTransform, preprocess_openbci_emg, extract_emg_features
+from src.visualization.visualization_utils import plot_emg_channels, plot_spectrogram
 import matplotlib.pyplot as plt
-from model_ensemble import ModelEnsemble
-from generate_synthetic_data import generate_synthetic_emg
+from src.models.model_ensemble import ModelEnsemble
+from src.data.generate_synthetic_data import generate_synthetic_emg
 import time
 from scipy import signal
 from transformers import T5Tokenizer, T5ForConditionalGeneration

@@ -39,15 +39,37 @@ pip install -r requirements-dev.txt  # For development
 ```
 
 ## Model Weights and Data Files
-Due to size limitations, the following files are not included in the repository:
-- Pre-trained model weights (`*.pth`)
-- Training logs and visualizations (`wandb/`)
-- Generated EMG data files (`*.npy`, `*.pkl`)
+The model weights and large data files are stored separately from this repository. Here's how to obtain them:
 
-To obtain these files:
-1. **Model Weights**: Train the model using the provided scripts or download pre-trained weights from [releases](https://github.com/Leesanchez/SilentSpeechEMG/releases).
-2. **Training Logs**: These are automatically generated during training using Weights & Biases.
-3. **EMG Data**: Generate synthetic data using the provided scripts or collect your own EMG data.
+### Pre-trained Models
+You can access the pre-trained models in two ways:
+1. **Download from Hugging Face**: Our models are hosted on the Hugging Face Model Hub
+   ```bash
+   # Install huggingface_hub
+   pip install huggingface_hub
+   
+   # Download the model
+   python -c "from huggingface_hub import hf_hub_download; hf_hub_download(repo_id='Leesanchez/SilentSpeechEMG', filename='best_model.pth')"
+   ```
+
+2. **Direct Download**: Access the models through our Google Drive repository
+   - [best_model.pth](https://drive.google.com/drive/folders/your-folder-id) (319 MB)
+   - [electrode_study_model.pth](https://drive.google.com/drive/folders/your-folder-id) (280 MB)
+
+### Training Your Own Models
+If you prefer to train your own models:
+1. Prepare your dataset using the scripts in `src/data/`
+2. Configure your training parameters in `configs/training_config.yaml`
+3. Run the training script:
+   ```bash
+   python train.py --config configs/training_config.yaml
+   ```
+
+### Model Checkpoints
+During training, model checkpoints are saved in the `checkpoints/` directory (not tracked by Git). You can:
+- Use Weights & Biases (wandb) to track your experiments
+- Configure checkpoint saving frequency in the training config
+- Access historical training runs through wandb.ai
 
 ## Usage
 1. Train the model:
