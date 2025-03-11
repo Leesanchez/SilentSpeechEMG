@@ -75,22 +75,25 @@ class LabelSmoothing(nn.Module):
     def __init__(self, smoothing=0.1):
         super(LabelSmoothing, self).__init__()
         self.smoothing = smoothing
-        self.criterion = nn.KLDivLoss(reduction='batchmean')
+        self.criterion = nn.KLDivLoss(reduction='sum')
         
     def forward(self, pred, target):
         # Get shapes
         batch_size, seq_len, n_classes = pred.shape
         
-        # Reshape predictions and targets
-        pred = pred.view(-1, n_classes)
-        target = target.view(-1)
-        
         # Create mask for non-padding tokens
-        mask = (target != -1)
+        mask = (target != -1).view(-1)  # Flatten mask to match reshaped tensors
         
-        # Apply mask to both predictions and targets
-        pred = pred[mask]
-        target = target[mask]
+        # Reshape predictions and targets
+        pred = pred.view(-1, n_classes)  # [batch_size * seq_len, n_classes]
+        target = target.view(-1)         # [batch_size * seq_len]
+        
+        # Apply mask
+        pred = pred[mask]    # [valid_tokens, n_classes]
+        target = target[mask]  # [valid_tokens]
+        
+        if len(target) == 0:  # Handle empty case
+            return torch.tensor(0.0, device=pred.device)
         
         # Convert targets to one-hot
         target_one_hot = torch.zeros_like(pred).scatter_(1, target.unsqueeze(1), 1)
@@ -100,7 +103,10 @@ class LabelSmoothing(nn.Module):
         
         # Calculate loss
         pred_log = F.log_softmax(pred, dim=-1)
-        return self.criterion(pred_log, target_smooth)
+        loss = self.criterion(pred_log, target_smooth)
+        
+        # Normalize by number of valid tokens
+        return loss / len(target)
 
 class EarlyStopping:
     def __init__(self, patience=7, min_delta=0):

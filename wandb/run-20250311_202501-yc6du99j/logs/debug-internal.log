@@ -1,7 +1,0 @@
-{"time":"2025-03-11T20:25:01.059557+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/anthony-leesanchez/Desktop/silent_speech/wandb/run-20250311_202501-yc6du99j/logs/debug-core.log"}
-{"time":"2025-03-11T20:25:01.170642+01:00","level":"INFO","msg":"created new stream","id":"yc6du99j"}
-{"time":"2025-03-11T20:25:01.170675+01:00","level":"INFO","msg":"stream: started","id":"yc6du99j"}
-{"time":"2025-03-11T20:25:01.170689+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"yc6du99j"}
-{"time":"2025-03-11T20:25:01.170701+01:00","level":"INFO","msg":"sender: started","stream_id":"yc6du99j"}
-{"time":"2025-03-11T20:25:01.170707+01:00","level":"INFO","msg":"handler: started","stream_id":"yc6du99j"}
-{"time":"2025-03-11T20:25:01.482102+01:00","level":"INFO","msg":"Starting system monitor"}
