@@ -71,6 +71,28 @@ During training, model checkpoints are saved in the `checkpoints/` directory (no
 - Configure checkpoint saving frequency in the training config
 - Access historical training runs through wandb.ai
 
+## Training the Model
+
+For detailed instructions on training the model, please refer to our [Training Documentation](docs/training.md). The documentation covers:
+
+- Configuration options
+- Running training jobs
+- Monitoring progress
+- Troubleshooting
+- Best practices
+
+Quick start:
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Configure your training parameters
+vim configs/training_config.yaml
+
+# Start training
+python src/train.py --config configs/training_config.yaml
+```
+
 ## Usage
 1. Train the model:
 ```bash

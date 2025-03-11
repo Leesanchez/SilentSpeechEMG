@@ -1,0 +1,39 @@
+# Model configuration
+model:
+  num_channels: 8
+  input_size: 128
+  hidden_size: 256
+  num_heads: 8
+  num_layers: 6
+  dropout: 0.1
+
+# Data configuration
+data:
+  train_dir: "data/train"
+  val_dir: "data/val"
+  test_dir: "data/test"
+  sampling_rate: 1000
+  window_size: 256
+  hop_length: 128
+
+# Training configuration
+training:
+  num_epochs: 100
+  batch_size: 32
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  label_smoothing: 0.1
+  grad_clip: 5.0
+  num_workers: 4
+  log_interval: 10
+  save_interval: 5
+  viz_interval: 1
+  patience: 10
+  checkpoint_dir: "checkpoints"
+
+# Wandb configuration
+wandb:
+  project: "silent_speech_recognition"
+  entity: "your_username"
+  name: "transformer_model"
+  tags: ["transformer", "emg", "silent_speech"] 

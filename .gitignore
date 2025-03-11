@@ -77,3 +77,17 @@ models/
 deepspeech-0.7.0-models.pbmm
 deepspeech-0.7.0-models.scorer
 lm.binary
+
+# Generated visualizations
+# Exclude all PNGs except those in docs/images/
+*.png
+!docs/images/*.png
+
+# Training artifacts
+confusion_matrix_*.png
+pred_epoch*.png
+spectrogram_*.png
+augmentation_*.png
+
+# OS-specific
+Thumbs.db
