@@ -1,0 +1,16 @@
+{"time":"2025-03-11T20:08:12.927294+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/anthony-leesanchez/Desktop/silent_speech/wandb/run-20250311_200812-g9geingj/logs/debug-core.log"}
+{"time":"2025-03-11T20:08:13.035065+01:00","level":"INFO","msg":"created new stream","id":"g9geingj"}
+{"time":"2025-03-11T20:08:13.035099+01:00","level":"INFO","msg":"stream: started","id":"g9geingj"}
+{"time":"2025-03-11T20:08:13.035117+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"g9geingj"}
+{"time":"2025-03-11T20:08:13.035123+01:00","level":"INFO","msg":"sender: started","stream_id":"g9geingj"}
+{"time":"2025-03-11T20:08:13.035167+01:00","level":"INFO","msg":"handler: started","stream_id":"g9geingj"}
+{"time":"2025-03-11T20:08:13.263474+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-11T20:25:00.120913+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-11T20:25:00.121338+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-11T20:25:00.841691+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-11T20:25:01.03947+01:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-03-11T20:25:01.051001+01:00","level":"INFO","msg":"stream: closing","id":"g9geingj"}
+{"time":"2025-03-11T20:25:01.051031+01:00","level":"INFO","msg":"handler: closed","stream_id":"g9geingj"}
+{"time":"2025-03-11T20:25:01.051047+01:00","level":"INFO","msg":"sender: closed","stream_id":"g9geingj"}
+{"time":"2025-03-11T20:25:01.051047+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"g9geingj"}
+{"time":"2025-03-11T20:25:01.051264+01:00","level":"INFO","msg":"stream: closed","id":"g9geingj"}

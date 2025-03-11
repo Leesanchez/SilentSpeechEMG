@@ -1,0 +1,21 @@
+/Users/anthony-leesanchez/Desktop/silent_speech/visualization_utils.py:74: RuntimeWarning: divide by zero encountered in log10
+  pcm = ax.pcolormesh(t, f, 10 * np.log10(Sxx), shading='gouraud')
+Epoch 1/100: 100%|████████████████████████████████████████████████████████████| 2/2 [00:18<00:00,  9.18s/it]
+Traceback (most recent call last):
+  File "/Users/anthony-leesanchez/Desktop/silent_speech/train.py", line 288, in <module>
+    main()
+  File "/Users/anthony-leesanchez/Desktop/silent_speech/train.py", line 279, in main
+    ensemble.train_with_cross_validation(
+  File "/Users/anthony-leesanchez/Desktop/silent_speech/model_ensemble.py", line 73, in train_with_cross_validation
+    metrics = train_model(
+  File "/Users/anthony-leesanchez/Desktop/silent_speech/model_utils.py", line 265, in train_model
+    plot_confusion_matrix(
+  File "/Users/anthony-leesanchez/Desktop/silent_speech/visualization_utils.py", line 162, in plot_confusion_matrix
+    sns.heatmap(conf_matrix, annot=True, fmt='d',
+  File "/Users/anthony-leesanchez/Desktop/silent_speech/.venv/lib/python3.9/site-packages/seaborn/matrix.py", line 459, in heatmap
+    plotter.plot(ax, cbar_ax, kwargs)
+  File "/Users/anthony-leesanchez/Desktop/silent_speech/.venv/lib/python3.9/site-packages/seaborn/matrix.py", line 352, in plot
+    self._annotate_heatmap(ax, mesh)
+  File "/Users/anthony-leesanchez/Desktop/silent_speech/.venv/lib/python3.9/site-packages/seaborn/matrix.py", line 260, in _annotate_heatmap
+    annotation = ("{:" + self.fmt + "}").format(val)
+ValueError: Unknown format code 'd' for object of type 'float'

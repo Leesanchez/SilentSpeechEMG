@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/anthony-leesanchez/Desktop/silent_speech/train.py", line 568, in <module>
+    main()
+  File "/Users/anthony-leesanchez/Desktop/silent_speech/train.py", line 559, in main
+    ensemble.train_with_cross_validation(
+  File "/Users/anthony-leesanchez/Desktop/silent_speech/model_ensemble.py", line 73, in train_with_cross_validation
+    metrics = train_model(
+NameError: name 'train_model' is not defined

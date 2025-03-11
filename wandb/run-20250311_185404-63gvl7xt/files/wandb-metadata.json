@@ -1,0 +1,43 @@
+{
+  "os": "macOS-15.3.1-arm64-arm-64bit",
+  "python": "CPython 3.9.6",
+  "startedAt": "2025-03-11T17:54:04.230003Z",
+  "program": "/Users/anthony-leesanchez/Desktop/silent_speech/train.py",
+  "codePath": "train.py",
+  "git": {
+    "remote": "https://github.com/dgaddy/silent_speech.git",
+    "commit": "a89357c2086609b432919b9d14ffc0be5d8983d5"
+  },
+  "email": "anthony.l.sanchez@gmail.com",
+  "root": "/Users/anthony-leesanchez/Desktop/silent_speech",
+  "host": "Anthony-Lees-MacBook-Pro.local",
+  "executable": "/Users/anthony-leesanchez/Desktop/silent_speech/.venv/bin/python",
+  "codePathLocal": "train.py",
+  "cpu_count": 16,
+  "cpu_count_logical": 16,
+  "disk": {
+    "/": {
+      "total": "994662584320",
+      "used": "307712237568"
+    },
+    "/System/Volumes/Data": {
+      "total": "994662584320",
+      "used": "307712237568"
+    }
+  },
+  "memory": {
+    "total": "68719476736"
+  },
+  "cpu": {
+    "count": 16,
+    "countLogical": 16
+  },
+  "apple": {
+    "name": "Apple M3 Max",
+    "ecpuCores": 4,
+    "pcpuCores": 12,
+    "gpuCores": 40,
+    "memoryGb": 64,
+    "ramTotalBytes": "68719476736"
+  }
+}

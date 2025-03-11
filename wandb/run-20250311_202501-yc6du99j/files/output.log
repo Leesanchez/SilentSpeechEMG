@@ -1,0 +1,15 @@
+/Users/anthony-leesanchez/Desktop/silent_speech/visualization_utils.py:74: RuntimeWarning: divide by zero encountered in log10
+  pcm = ax.pcolormesh(t, f, 10 * np.log10(Sxx), shading='gouraud')
+Epoch 1/100: 100%|█████████████████████████████████████████████████████████████████████| 2/2 [00:18<00:00,  9.24s/it]
+Epoch 1/100:
+Train Loss: 3.5038, Train Acc: 2.22%
+Train WER: 1.0625, Train CER: 1.4174
+Val Loss: 2.7763, Val Acc: 20.59%
+Val WER: 1.0000, Val CER: 1.2059
+Epoch 2/100: 100%|█████████████████████████████████████████████████████████████████████| 2/2 [00:18<00:00,  9.20s/it]
+Epoch 2/100:
+Train Loss: 2.6006, Train Acc: 13.70%
+Train WER: 1.0000, Train CER: 1.2804
+Val Loss: 2.2955, Val Acc: 17.65%
+Val WER: 1.0000, Val CER: 1.2794
+Epoch 3/100: 100%|█████████████████████████████████████████████████████████████████████| 2/2 [00:18<00:00,  9.31s/it]

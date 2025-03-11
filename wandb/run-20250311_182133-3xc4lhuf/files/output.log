@@ -1,0 +1,1400 @@
+Epoch 1/100: 100%|████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 12.73it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 1/100:
+Train Loss: 3.5709, Train Acc: 7.78%
+Val Loss: 3.2887, Val Acc: 10.29%
+Epoch 2/100: 100%|████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 11.10it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 2/100:
+Train Loss: 2.9797, Train Acc: 11.11%
+Val Loss: 2.6749, Val Acc: 19.12%
+Epoch 3/100: 100%|████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 14.89it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 3/100:
+Train Loss: 2.6913, Train Acc: 17.41%
+Val Loss: 2.7180, Val Acc: 19.12%
+Epoch 4/100: 100%|████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 14.74it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 4/100:
+Train Loss: 2.6150, Train Acc: 13.70%
+Val Loss: 2.6673, Val Acc: 10.29%
+Epoch 5/100: 100%|████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 14.70it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 5/100:
+Train Loss: 2.6331, Train Acc: 12.22%
+Val Loss: 2.6747, Val Acc: 10.29%
+Epoch 6/100: 100%|████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.02it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 6/100:
+Train Loss: 2.6031, Train Acc: 14.81%
+Val Loss: 2.6251, Val Acc: 19.12%
+Epoch 7/100: 100%|████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.72it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 7/100:
+Train Loss: 2.6346, Train Acc: 16.67%
+Val Loss: 2.6073, Val Acc: 19.12%
+Epoch 8/100: 100%|████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.28it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 8/100:
+Train Loss: 2.6251, Train Acc: 16.67%
+Val Loss: 2.6139, Val Acc: 19.12%
+Epoch 9/100: 100%|████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.18it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 9/100:
+Train Loss: 2.6024, Train Acc: 11.48%
+Val Loss: 2.6293, Val Acc: 7.35%
+Epoch 10/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.28it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 10/100:
+Train Loss: 2.6190, Train Acc: 11.85%
+Val Loss: 2.6402, Val Acc: 19.12%
+Epoch 11/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.44it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 11/100:
+Train Loss: 2.5954, Train Acc: 13.70%
+Val Loss: 2.6216, Val Acc: 19.12%
+Epoch 12/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.43it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 12/100:
+Train Loss: 2.5890, Train Acc: 16.30%
+Val Loss: 2.6098, Val Acc: 19.12%
+Epoch 13/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.97it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 13/100:
+Train Loss: 2.5679, Train Acc: 17.41%
+Val Loss: 2.6079, Val Acc: 19.12%
+Epoch 14/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.85it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 14/100:
+Train Loss: 2.5883, Train Acc: 15.56%
+Val Loss: 2.6077, Val Acc: 19.12%
+Epoch 15/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.31it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 15/100:
+Train Loss: 2.6127, Train Acc: 17.41%
+Val Loss: 2.6075, Val Acc: 19.12%
+Epoch 16/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.22it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 16/100:
+Train Loss: 2.5785, Train Acc: 17.04%
+Val Loss: 2.6075, Val Acc: 19.12%
+Epoch 17/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.60it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 17/100:
+Train Loss: 2.5844, Train Acc: 17.78%
+Val Loss: 2.6067, Val Acc: 19.12%
+Epoch 18/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.98it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 18/100:
+Train Loss: 2.6148, Train Acc: 12.22%
+Val Loss: 2.6067, Val Acc: 19.12%
+Epoch 19/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.11it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 19/100:
+Train Loss: 2.6070, Train Acc: 14.07%
+Val Loss: 2.6085, Val Acc: 19.12%
+Epoch 20/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.52it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 20/100:
+Train Loss: 2.6187, Train Acc: 16.30%
+Val Loss: 2.6094, Val Acc: 19.12%
+Epoch 21/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.31it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 21/100:
+Train Loss: 2.6072, Train Acc: 15.93%
+Val Loss: 2.6096, Val Acc: 19.12%
+Epoch 22/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.86it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 22/100:
+Train Loss: 2.5456, Train Acc: 19.63%
+Val Loss: 2.6121, Val Acc: 19.12%
+Epoch 23/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 11.63it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 23/100:
+Train Loss: 2.5917, Train Acc: 16.67%
+Val Loss: 2.6136, Val Acc: 19.12%
+Epoch 24/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.38it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 24/100:
+Train Loss: 2.5792, Train Acc: 17.04%
+Val Loss: 2.6137, Val Acc: 19.12%
+Epoch 25/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.00it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 25/100:
+Train Loss: 2.5758, Train Acc: 13.70%
+Val Loss: 2.6139, Val Acc: 19.12%
+Epoch 26/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.36it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 26/100:
+Train Loss: 2.5750, Train Acc: 17.04%
+Val Loss: 2.6140, Val Acc: 19.12%
+Epoch 27/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.26it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 27/100:
+Train Loss: 2.5497, Train Acc: 17.04%
+Val Loss: 2.6144, Val Acc: 19.12%
+Epoch 28/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.67it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 28/100:
+Train Loss: 2.5806, Train Acc: 17.04%
+Val Loss: 2.6146, Val Acc: 19.12%
+Epoch 29/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 14.65it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 29/100:
+Train Loss: 2.6097, Train Acc: 16.30%
+Val Loss: 2.6146, Val Acc: 19.12%
+Epoch 30/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.32it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 30/100:
+Train Loss: 2.5974, Train Acc: 15.19%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 31/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.20it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 31/100:
+Train Loss: 2.6004, Train Acc: 15.56%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 32/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.12it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 32/100:
+Train Loss: 2.6196, Train Acc: 16.67%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 33/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.99it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 33/100:
+Train Loss: 2.5929, Train Acc: 15.56%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 34/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.96it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 34/100:
+Train Loss: 2.5899, Train Acc: 18.52%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 35/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.77it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 35/100:
+Train Loss: 2.5873, Train Acc: 15.93%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 36/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.61it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 36/100:
+Train Loss: 2.5775, Train Acc: 18.15%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 37/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.84it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 37/100:
+Train Loss: 2.5789, Train Acc: 15.19%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 38/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.70it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 38/100:
+Train Loss: 2.5992, Train Acc: 15.19%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 39/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.07it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 39/100:
+Train Loss: 2.5833, Train Acc: 16.67%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 40/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.03it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 40/100:
+Train Loss: 2.5776, Train Acc: 15.19%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 41/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.88it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 41/100:
+Train Loss: 2.5566, Train Acc: 16.67%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 42/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.79it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 42/100:
+Train Loss: 2.5860, Train Acc: 15.56%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 43/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.90it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 43/100:
+Train Loss: 2.6141, Train Acc: 17.78%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 44/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.42it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 44/100:
+Train Loss: 2.5710, Train Acc: 15.19%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 45/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.98it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 45/100:
+Train Loss: 2.5550, Train Acc: 16.30%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 46/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.86it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 46/100:
+Train Loss: 2.5791, Train Acc: 16.67%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 47/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.00it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 47/100:
+Train Loss: 2.5744, Train Acc: 16.30%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 48/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.81it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 48/100:
+Train Loss: 2.5730, Train Acc: 15.93%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 49/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.65it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 49/100:
+Train Loss: 2.5820, Train Acc: 16.30%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 50/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.72it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 50/100:
+Train Loss: 2.5492, Train Acc: 18.89%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 51/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.98it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 51/100:
+Train Loss: 2.5814, Train Acc: 15.56%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 52/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.25it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 52/100:
+Train Loss: 2.6102, Train Acc: 14.44%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 53/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.33it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 53/100:
+Train Loss: 2.5865, Train Acc: 18.89%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 54/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.78it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 54/100:
+Train Loss: 2.5837, Train Acc: 17.04%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 55/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.32it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 55/100:
+Train Loss: 2.5722, Train Acc: 16.67%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 56/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.00it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 56/100:
+Train Loss: 2.5521, Train Acc: 18.52%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 57/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.24it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 57/100:
+Train Loss: 2.5894, Train Acc: 16.30%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 58/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.71it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 58/100:
+Train Loss: 2.5962, Train Acc: 16.67%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 59/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.80it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 59/100:
+Train Loss: 2.5656, Train Acc: 16.30%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 60/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.48it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 60/100:
+Train Loss: 2.5796, Train Acc: 17.78%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 61/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.62it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 61/100:
+Train Loss: 2.6113, Train Acc: 17.04%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 62/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.87it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 62/100:
+Train Loss: 2.5588, Train Acc: 16.67%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 63/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.94it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 63/100:
+Train Loss: 2.5925, Train Acc: 16.67%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 64/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.66it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 64/100:
+Train Loss: 2.5948, Train Acc: 18.89%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 65/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.56it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 65/100:
+Train Loss: 2.5906, Train Acc: 14.44%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 66/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.66it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 66/100:
+Train Loss: 2.5425, Train Acc: 18.15%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 67/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.00it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 67/100:
+Train Loss: 2.5581, Train Acc: 17.78%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 68/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.86it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 68/100:
+Train Loss: 2.5739, Train Acc: 16.67%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 69/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.76it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 69/100:
+Train Loss: 2.5886, Train Acc: 16.30%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 70/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.25it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 70/100:
+Train Loss: 2.5829, Train Acc: 16.30%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 71/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.55it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 71/100:
+Train Loss: 2.5917, Train Acc: 15.19%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 72/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.45it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 72/100:
+Train Loss: 2.6160, Train Acc: 14.81%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 73/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.97it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 73/100:
+Train Loss: 2.5688, Train Acc: 15.56%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 74/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.96it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 74/100:
+Train Loss: 2.5979, Train Acc: 16.67%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 75/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.28it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 75/100:
+Train Loss: 2.5690, Train Acc: 15.56%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 76/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.75it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 76/100:
+Train Loss: 2.5933, Train Acc: 17.78%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 77/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.08it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 77/100:
+Train Loss: 2.5878, Train Acc: 17.41%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 78/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.66it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 78/100:
+Train Loss: 2.5653, Train Acc: 16.67%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 79/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.11it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 79/100:
+Train Loss: 2.5786, Train Acc: 17.78%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 80/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.17it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 80/100:
+Train Loss: 2.6010, Train Acc: 19.26%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 81/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.84it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 81/100:
+Train Loss: 2.5685, Train Acc: 16.67%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 82/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.02it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 82/100:
+Train Loss: 2.5748, Train Acc: 16.67%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 83/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.57it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 83/100:
+Train Loss: 2.5648, Train Acc: 14.81%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 84/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.62it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 84/100:
+Train Loss: 2.5723, Train Acc: 17.04%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 85/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.50it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 85/100:
+Train Loss: 2.5825, Train Acc: 17.04%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 86/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.23it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 86/100:
+Train Loss: 2.5842, Train Acc: 14.07%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 87/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.68it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 87/100:
+Train Loss: 2.5488, Train Acc: 17.41%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 88/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.51it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 88/100:
+Train Loss: 2.5778, Train Acc: 17.78%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 89/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 14.24it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 89/100:
+Train Loss: 2.5681, Train Acc: 16.67%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 90/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.76it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 90/100:
+Train Loss: 2.5684, Train Acc: 14.81%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 91/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 16.99it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 91/100:
+Train Loss: 2.5558, Train Acc: 18.15%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 92/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 12.48it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 92/100:
+Train Loss: 2.5899, Train Acc: 16.30%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 93/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.11it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 93/100:
+Train Loss: 2.5590, Train Acc: 15.56%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 94/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 13.71it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 94/100:
+Train Loss: 2.6065, Train Acc: 15.19%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 95/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 13.64it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 95/100:
+Train Loss: 2.6003, Train Acc: 14.44%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 96/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 14.21it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 96/100:
+Train Loss: 2.6121, Train Acc: 16.67%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 97/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 13.88it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 97/100:
+Train Loss: 2.5811, Train Acc: 15.56%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 98/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 14.66it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 98/100:
+Train Loss: 2.5666, Train Acc: 15.19%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 99/100: 100%|███████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.09it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 99/100:
+Train Loss: 2.5940, Train Acc: 17.04%
+Val Loss: 2.6145, Val Acc: 19.12%
+Epoch 100/100: 100%|██████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 15.15it/s]
+
+Input shapes:
+EMG batch shape: torch.Size([32, 8, 67])
+Labels batch shape: torch.Size([32, 5])
+
+Output shapes:
+Model output shape: torch.Size([32, 5, 37])
+Reshaped output shape: torch.Size([160, 37])
+Reshaped labels shape: torch.Size([160])
+
+Epoch 100/100:
+Train Loss: 2.5939, Train Acc: 13.33%
+Val Loss: 2.6145, Val Acc: 19.12%

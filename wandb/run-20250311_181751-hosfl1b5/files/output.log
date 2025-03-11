@@ -1,0 +1,23 @@
+Epoch 1/100:   0%|                                                                    | 0/3 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/Users/anthony-leesanchez/Desktop/silent_speech/train.py", line 227, in <module>
+    main()
+  File "/Users/anthony-leesanchez/Desktop/silent_speech/train.py", line 224, in main
+    train_model(model, train_loader, val_loader, device=device)
+  File "/Users/anthony-leesanchez/Desktop/silent_speech/train.py", line 127, in train_model
+    loss = criterion(outputs, batch_labels)
+  File "/Users/anthony-leesanchez/Desktop/silent_speech/.venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/anthony-leesanchez/Desktop/silent_speech/.venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/anthony-leesanchez/Desktop/silent_speech/train.py", line 104, in forward
+    return self.criterion(pred, target)
+  File "/Users/anthony-leesanchez/Desktop/silent_speech/.venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/anthony-leesanchez/Desktop/silent_speech/.venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/anthony-leesanchez/Desktop/silent_speech/.venv/lib/python3.9/site-packages/torch/nn/modules/loss.py", line 1295, in forward
+    return F.cross_entropy(
+  File "/Users/anthony-leesanchez/Desktop/silent_speech/.venv/lib/python3.9/site-packages/torch/nn/functional.py", line 3494, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(
+ValueError: Expected input batch_size (32) to match target batch_size (160).

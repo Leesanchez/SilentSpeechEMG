@@ -1,0 +1,15 @@
+{"time":"2025-03-11T19:13:13.331607+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/anthony-leesanchez/Desktop/silent_speech/wandb/run-20250311_191313-ogjrzuqe/logs/debug-core.log"}
+{"time":"2025-03-11T19:13:13.441275+01:00","level":"INFO","msg":"created new stream","id":"ogjrzuqe"}
+{"time":"2025-03-11T19:13:13.441317+01:00","level":"INFO","msg":"stream: started","id":"ogjrzuqe"}
+{"time":"2025-03-11T19:13:13.441327+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"ogjrzuqe"}
+{"time":"2025-03-11T19:13:13.441327+01:00","level":"INFO","msg":"handler: started","stream_id":"ogjrzuqe"}
+{"time":"2025-03-11T19:13:13.441374+01:00","level":"INFO","msg":"sender: started","stream_id":"ogjrzuqe"}
+{"time":"2025-03-11T19:13:13.682339+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-11T19:17:52.086175+01:00","level":"INFO","msg":"stream: closing","id":"ogjrzuqe"}
+{"time":"2025-03-11T19:17:52.086328+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-11T19:17:52.087552+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-11T19:17:52.629173+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-11T19:17:52.816606+01:00","level":"INFO","msg":"handler: closed","stream_id":"ogjrzuqe"}
+{"time":"2025-03-11T19:17:52.81664+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ogjrzuqe"}
+{"time":"2025-03-11T19:17:52.81667+01:00","level":"INFO","msg":"sender: closed","stream_id":"ogjrzuqe"}
+{"time":"2025-03-11T19:17:52.817156+01:00","level":"INFO","msg":"stream: closed","id":"ogjrzuqe"}

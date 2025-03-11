@@ -1,0 +1,15 @@
+{"time":"2025-03-11T18:21:01.431984+01:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/anthony-leesanchez/Desktop/silent_speech/wandb/run-20250311_182101-zdtlwupw/logs/debug-core.log"}
+{"time":"2025-03-11T18:21:01.539857+01:00","level":"INFO","msg":"created new stream","id":"zdtlwupw"}
+{"time":"2025-03-11T18:21:01.539891+01:00","level":"INFO","msg":"stream: started","id":"zdtlwupw"}
+{"time":"2025-03-11T18:21:01.53991+01:00","level":"INFO","msg":"sender: started","stream_id":"zdtlwupw"}
+{"time":"2025-03-11T18:21:01.539907+01:00","level":"INFO","msg":"writer: Do: started","stream_id":"zdtlwupw"}
+{"time":"2025-03-11T18:21:01.539941+01:00","level":"INFO","msg":"handler: started","stream_id":"zdtlwupw"}
+{"time":"2025-03-11T18:21:01.765016+01:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-11T18:21:02.1653+01:00","level":"INFO","msg":"stream: closing","id":"zdtlwupw"}
+{"time":"2025-03-11T18:21:02.165323+01:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-11T18:21:02.165658+01:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-11T18:21:02.713291+01:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-11T18:21:02.909485+01:00","level":"INFO","msg":"handler: closed","stream_id":"zdtlwupw"}
+{"time":"2025-03-11T18:21:02.909493+01:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zdtlwupw"}
+{"time":"2025-03-11T18:21:02.909505+01:00","level":"INFO","msg":"sender: closed","stream_id":"zdtlwupw"}
+{"time":"2025-03-11T18:21:02.909681+01:00","level":"INFO","msg":"stream: closed","id":"zdtlwupw"}

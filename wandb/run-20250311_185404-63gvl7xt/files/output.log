@@ -1,0 +1,15 @@
+/Users/anthony-leesanchez/Desktop/silent_speech/visualization_utils.py:74: RuntimeWarning: divide by zero encountered in log10
+  pcm = ax.pcolormesh(t, f, 10 * np.log10(Sxx), shading='gouraud')
+Epoch 1/100:   0%|                                                                    | 0/2 [00:17<?, ?it/s]
+Traceback (most recent call last):
+  File "/Users/anthony-leesanchez/Desktop/silent_speech/train.py", line 288, in <module>
+    main()
+  File "/Users/anthony-leesanchez/Desktop/silent_speech/train.py", line 279, in main
+    ensemble.train_with_cross_validation(
+  File "/Users/anthony-leesanchez/Desktop/silent_speech/model_ensemble.py", line 73, in train_with_cross_validation
+    metrics = train_model(
+  File "/Users/anthony-leesanchez/Desktop/silent_speech/model_utils.py", line 195, in train_model
+    preds = decode_predictions(outputs.detach().cpu(), text_transform)
+  File "/Users/anthony-leesanchez/Desktop/silent_speech/model_utils.py", line 45, in decode_predictions
+    text += text_transform.int_to_char[idx.item()]
+AttributeError: 'TextTransform' object has no attribute 'int_to_char'
