@@ -137,6 +137,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-Anthony Lee Sanchez - [@YourTwitter](https://twitter.com/yourusername)
+Anthony Lee Sanchez - [LinkedIn]((https://www.linkedin.com/in/anthony-lee-sanchez/))
 
 Project Link: [https://github.com/Leesanchez/SilentSpeechEMG](https://github.com/Leesanchez/SilentSpeechEMG)
