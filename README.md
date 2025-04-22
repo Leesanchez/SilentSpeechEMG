@@ -324,28 +324,27 @@ If you use this project in your research, please cite both our work and the orig
 }
 ```
 
-## 📊 Current Results
+## 📊 Current Status
 
-Our current implementation shows promising results on the dgaddy dataset:
+The model is currently in training with the dgaddy dataset. We will update this section with actual performance metrics once training is complete.
 
-### Performance Metrics
-| Metric | Value | Comparison to Original |
-|--------|--------|----------------------|
-| WER    | 15.2%  | ~2% improvement      |
-| CER    | 8.7%   | ~1.5% improvement    |
-| RTF    | 0.95   | Similar performance  |
+### Expected Metrics to be Reported
+- Word Error Rate (WER)
+- Character Error Rate (CER)
+- Real-time Factor (RTF)
+- Training convergence metrics
 
-### Key Improvements
-- Enhanced stability during training with batch normalization
-- Better generalization with improved dropout strategy
-- Faster convergence with learning rate scheduling
-- Reduced overfitting through regularization
+### Implemented Improvements
+- Enhanced model architecture with batch normalization
+- Improved dropout strategy for better generalization
+- Learning rate scheduling implementation
+- Added regularization techniques
 
-### Visualizations
-The repository includes:
-- Training curves showing loss and accuracy progression
-- Confusion matrix for phoneme recognition
-- Training history visualization
+We will post comprehensive results, including:
+- Training curves
+- Confusion matrix
+- Performance comparisons with the original implementation
+- Detailed error analysis
 
 ## 🔮 Future Plans
 
