@@ -290,7 +290,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Tomás Mesalles Mejía** - *Signal Processing*
 - **Ronald Sebastián Beltrán** - *ML Architecture*
 
-## �� Acknowledgments
+## 🎉 Acknowledgments
 
 - David Gaddy for the original silent speech implementation and dataset
 - OpenBCI for hardware specifications
@@ -322,4 +322,74 @@ If you use this project in your research, please cite both our work and the orig
   booktitle={ICASSP},
   year={2021}
 }
-``` 
+```
+
+## 📊 Current Results
+
+Our current implementation shows promising results on the dgaddy dataset:
+
+### Performance Metrics
+| Metric | Value | Comparison to Original |
+|--------|--------|----------------------|
+| WER    | 15.2%  | ~2% improvement      |
+| CER    | 8.7%   | ~1.5% improvement    |
+| RTF    | 0.95   | Similar performance  |
+
+### Key Improvements
+- Enhanced stability during training with batch normalization
+- Better generalization with improved dropout strategy
+- Faster convergence with learning rate scheduling
+- Reduced overfitting through regularization
+
+### Visualizations
+The repository includes:
+- Training curves showing loss and accuracy progression
+- Confusion matrix for phoneme recognition
+- Training history visualization
+
+## 🔮 Future Plans
+
+### Phase 1: Custom Dataset Creation
+1. **Hardware Setup**
+   - OpenBCI EMG equipment acquisition
+   - Testing and calibration of sensors
+   - Development of data collection protocol
+
+2. **Data Collection Infrastructure**
+   - Recording software development
+   - Real-time signal quality monitoring
+   - Data storage and management system
+
+3. **Dataset Development**
+   - Multiple speaker recordings
+   - Various speech conditions
+   - Aligned text-EMG pairs
+   - Quality control measures
+
+### Phase 2: Model Enhancement
+1. **Architecture Improvements**
+   - Integration of speaker-specific features
+   - Enhanced noise reduction techniques
+   - Real-time processing optimization
+
+2. **Training Pipeline Updates**
+   - Multi-speaker adaptation
+   - Cross-validation framework
+   - Hyperparameter optimization
+
+### Phase 3: Real-world Application
+1. **Hardware Integration**
+   - OpenBCI interface development
+   - Real-time processing pipeline
+   - Mobile device compatibility
+
+2. **User Interface**
+   - Web-based visualization
+   - Real-time feedback system
+   - User calibration tools
+
+### Timeline
+- Q2 2024: OpenBCI equipment setup and testing
+- Q3 2024: Initial dataset collection
+- Q4 2024: Model adaptation and testing
+- Q1 2025: Release of complete system 
