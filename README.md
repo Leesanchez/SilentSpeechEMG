@@ -4,30 +4,30 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
 
-A state-of-the-art silent speech recognition system that converts facial muscle EMG signals into text using deep learning and natural language processing techniques. This system enables silent communication by recognizing speech patterns from muscle activity without requiring audible vocalization.
+A deep learning-based silent speech recognition system that converts facial muscle EMG signals into text. This implementation builds upon and extends the work from the [dgaddy/silent_speech](https://github.com/dgaddy/silent_speech) repository, focusing on improving the model architecture and training process for better recognition accuracy.
 
 ## 🌟 Features
 
-- **Real-time Processing**: Live EMG signal processing and text prediction
-- **Advanced Signal Processing**: Sophisticated noise reduction and signal filtering
-- **Multi-modal Architecture**: Combines EMG signal processing with NLP techniques
-- **High Accuracy**: State-of-the-art recognition rates for silent speech
-- **Comprehensive Visualization**: Tools for signal analysis and model interpretation
-- **Hardware Integration**: Compatible with OpenBCI and other EMG hardware
-- **Web Interface**: Optional Flask-based web interface for easy interaction
+- **EMG-based Speech Recognition**: Convert facial muscle EMG signals to text without audible speech
+- **Enhanced Model Architecture**: Improved neural network design with additional regularization and batch normalization
+- **Comprehensive Data Processing**: Advanced preprocessing pipeline for EMG signals
+- **Training Improvements**: Modified training process with better hyperparameter tuning
+- **Evaluation Framework**: Detailed metrics and visualization tools for model assessment
 
-## 📋 Table of Contents
+## 📋 Dataset
 
-- [Installation](#installation)
-- [Quick Start](#quick-start)
-- [Project Structure](#project-structure)
-- [Technical Details](#technical-details)
-- [Model Architecture](#model-architecture)
-- [Training](#training)
-- [Evaluation](#evaluation)
-- [API Reference](#api-reference)
-- [Contributing](#contributing)
-- [License](#license)
+This project uses the dgaddy silent speech dataset, which contains:
+- EMG recordings from facial muscles during silent speech
+- Aligned text transcriptions
+- Multiple speakers and recording sessions
+- Sampling rate of 1000Hz
+- 8 EMG channels
+
+The `silent_speech` folder contains the original implementation from [dgaddy/silent_speech](https://github.com/dgaddy/silent_speech), which we use as a submodule for:
+- Data loading utilities
+- Base model architecture
+- Evaluation metrics
+- Signal processing functions
 
 ## 🚀 Installation
 
@@ -35,13 +35,13 @@ A state-of-the-art silent speech recognition system that converts facial muscle 
 
 - Python 3.8 or higher
 - CUDA-capable GPU (recommended for training)
-- OpenBCI hardware (for real-time data collection)
+- dgaddy silent speech dataset
 
 ### Setup
 
-1. Clone the repository:
+1. Clone the repository with submodules:
 ```bash
-git clone https://github.com/Leesanchez/SilentSpeechEMG.git
+git clone --recursive https://github.com/Leesanchez/SilentSpeechEMG.git
 cd SilentSpeechEMG
 ```
 
@@ -56,9 +56,20 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+4. Download and setup the dataset:
+```bash
+# Download the dataset from Zenodo
+# Place it in the appropriate directory structure:
+data/
+└── silent_speech/
+    ├── speaker1/
+    ├── speaker2/
+    └── ...
+```
+
 ## 🏃 Quick Start
 
-### Training a Model
+### Training the Model
 
 ```bash
 python train_model.py --config configs/default.yaml
@@ -70,26 +81,77 @@ python train_model.py --config configs/default.yaml
 python silent_speech_recognition.py --model_path models/best_model.pth --input_file data/test.emg
 ```
 
-### Starting the Web Interface
-
-```bash
-python app.py
-```
-
 ## 📁 Project Structure
 
 ```
-silent_speech/
-├── src/                    # Source code
-│   ├── data_utils.py       # Data processing utilities
-│   ├── model.py           # Model architecture
-│   └── train.py           # Training script
+.
+├── silent_speech/            # Original dgaddy implementation (submodule)
+├── data/                    # Dataset directory
+├── src/                    # Our modified implementation
+│   ├── data_utils.py       # Enhanced data processing
+│   ├── model.py           # Modified model architecture
+│   └── train.py           # Improved training pipeline
 ├── configs/                # Configuration files
 ├── scripts/                # Utility scripts
-├── tests/                 # Test suite
-├── docs/                  # Documentation
-└── requirements.txt       # Project dependencies
+└── requirements.txt        # Project dependencies
 ```
+
+## 🧠 Model Architecture
+
+Our implementation extends the original architecture with:
+
+1. **Enhanced Feature Extraction**
+   - Additional convolutional layers
+   - Batch normalization for better stability
+   - Improved dropout strategy
+
+2. **Modified Transformer Encoder**
+   - Optimized attention mechanism
+   - Better positional encoding
+   - Regularization improvements
+
+3. **Training Enhancements**
+   - Learning rate scheduling
+   - Gradient clipping
+   - Early stopping
+
+## 📈 Training Process
+
+1. **Data Preparation**
+   - Load EMG signals from dgaddy dataset
+   - Apply signal preprocessing
+   - Create aligned text-EMG pairs
+
+2. **Model Training**
+   - Batch size: 32
+   - Learning rate: 0.001 with scheduling
+   - Optimizer: Adam with weight decay
+   - Validation split: 20%
+
+## 📊 Evaluation
+
+Our model is evaluated on the dgaddy dataset test split, measuring:
+- Word Error Rate (WER)
+- Character Error Rate (CER)
+- Model convergence speed
+- Inference time
+
+## 📋 Table of Contents
+
+- [Installation](#installation)
+- [Quick Start](#quick-start)
+- [Project Structure](#project-structure)
+- [Technical Details](#technical-details)
+- [Model Architecture](#model-architecture)
+- [Training](#training)
+- [Evaluation](#evaluation)
+- [API Reference](#api-reference)
+- [Contributing](#contributing)
+- [License](#license)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgments)
+- [Contact](#contact)
+- [Citation](#citation)
 
 ## 🔧 Technical Details
 
@@ -228,11 +290,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Tomás Mesalles Mejía** - *Signal Processing*
 - **Ronald Sebastián Beltrán** - *ML Architecture*
 
-## 🙏 Acknowledgments
+## �� Acknowledgments
 
-- OpenBCI for hardware support
-- Hugging Face for transformer models
-- The silent speech research community
+- David Gaddy for the original silent speech implementation and dataset
+- OpenBCI for hardware specifications
+- Hugging Face for transformer implementations
 - All contributors and supporters
 
 ## 📞 Contact
@@ -243,7 +305,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📰 Citation
 
-If you use this project in your research, please cite:
+If you use this project in your research, please cite both our work and the original dgaddy implementation:
 
 ```bibtex
 @software{SilentSpeechEMG2024,
@@ -252,5 +314,12 @@ If you use this project in your research, please cite:
   year = {2024},
   publisher = {GitHub},
   url = {https://github.com/Leesanchez/SilentSpeechEMG}
+}
+
+@inproceedings{gaddy2021silent,
+  title={Silent Speech Recognition from Articulatory Movements},
+  author={Gaddy, David and Klein, Dan},
+  booktitle={ICASSP},
+  year={2021}
 }
 ``` 
