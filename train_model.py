@@ -14,6 +14,8 @@ from silent_speech_recognition import (
 import matplotlib.pyplot as plt
 from transformers import T5Tokenizer
 import gc
+from torch.utils.tensorboard import SummaryWriter
+import datetime
 
 def evaluate(model, test_loader, criterion, device):
     model.eval()
@@ -193,6 +195,24 @@ def main():
             print(f"Test Loss: {test_loss:.4f}")
         except Exception as e:
             print(f"Error during evaluation: {str(e)}")
+
+        # Add TensorBoard logging
+        current_time = datetime.datetime.now().strftime('%Y%m%d-%H%M%S')
+        writer = SummaryWriter(f'runs/silent_speech_{current_time}')
+
+        # Add in training loop
+        for epoch, loss in enumerate(train_losses):
+            writer.add_scalar('Loss/train', loss, epoch)
+            writer.add_scalar('Learning Rate', scheduler.get_last_lr()[0], epoch)
+
+        # Add in validation loop
+        for epoch, val_loss in enumerate(val_losses):
+            writer.add_scalar('Loss/validation', val_loss, epoch)
+            writer.add_scalar('Metrics/WER', wer, epoch)
+            writer.add_scalar('Metrics/CER', cer, epoch)
+
+        # Close writer at the end
+        writer.close()
 
     except Exception as e:
         print(f"Error during training: {str(e)}")

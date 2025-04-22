@@ -285,10 +285,18 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- **Anthony-Lee Sanchez** - *Project Lead* - [GitHub](https://github.com/Leesanchez)
-- **Gregorio Giuseppe Orlando** - *Core Developer*
-- **Tomás Mesalles Mejía** - *Signal Processing*
-- **Ronald Sebastián Beltrán** - *ML Architecture*
+- **Anthony-Lee Sanchez** - *Principal Investigator & Lead Developer* - [GitHub](https://github.com/Leesanchez)
+  - Project conceptualization and architecture
+  - Model design and implementation
+  - Research direction and methodology
+  - Technical writing and documentation
+
+Contributing Team Members:
+- **Gregorio Giuseppe Orlando** - *Technical Contributor*
+- **Tomás Mesalles Mejía** - *Technical Contributor*
+- **Ronald Sebastián Beltrán** - *Technical Contributor*
+
+This project was developed as part of Anthony-Lee Sanchez's research work, with support from the contributing team members.
 
 ## 🎉 Acknowledgments
 
