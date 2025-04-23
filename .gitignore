@@ -44,6 +44,7 @@ Thumbs.db
 
 # Project specific
 *.pth
+!model_checkpoint_20250423_222311.pth
 *.png
 *.ipynb_checkpoints/
 model_checkpoint.pth
